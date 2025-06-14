@@ -1,12 +1,16 @@
 import React from 'react';
-import navbar from './components/Navbar.jsx';
+import Navbar from './components/Navbar.jsx';
+import LandingPage from './components/LandingPage.jsx';
+import Marquee from './components/Marquee.jsx';
 
 
 const App = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 text-white">
-      app
-      <navbar/>
+    <div className="w-full min-h-screen text-white bg-zinc-900">
+  
+      <Navbar/>
+      <LandingPage/>
+      <Marquee/>
       
     </div>
   )
