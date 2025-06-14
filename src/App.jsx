@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar.jsx';
 import LandingPage from './components/LandingPage.jsx';
 import Marquee from './components/Marquee.jsx';
+import About from './components/About.jsx';
+import Eyes from './components/Eyes.jsx';
 
 
 const App = () => {
@@ -11,6 +13,8 @@ const App = () => {
       <Navbar/>
       <LandingPage/>
       <Marquee/>
+      <About/>
+      <Eyes/>
       
     </div>
   )
