@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="w-full h-screen bg-zinc-900 flex">
+    <div className="w-full h-[80vh] bg-zinc-900 flex">
         <div className="w-1/2 h-full flex flex-col justify-between font-['Founders_Grotesk_X-Condensed'] text-9xl  p-20">
         <div className="heading">
         <h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10 ">Eye-</h1>
@@ -19,13 +19,8 @@ function Footer() {
       
         </div>
         <div className="w-1/2 font-['Founders_Grotesk_X-Condensed']  p-20">
-        <h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10 ">Presentations</h1>
-        <div className="dets font-['Neue_Montreal'] mt-10 ">
-            <a className="block text-xl font-extralight" href="">Facebook</a>
-            <a className="block text-xl font-extralight" href="">Instagram</a>
-            <a className="block text-xl font-extralight" href="">Twitter</a>
-
-        </div>
+        <h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10 -ml-100 ">Presentations</h1>
+     
         
         </div>
       

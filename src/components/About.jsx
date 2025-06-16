@@ -14,7 +14,11 @@ const About = () => {
        
         </div>
         
-        <div className="w-1/2 h-[50vh] bg-[#829b32] rounded-3xl"></div>
+        <div className="w-1/2 h-[50vh] bg-[#829b32] rounded-3xl">
+
+        <img className="bg-cover w-full h-full rounded-xl" src="https://ochi.design/wp-content/uploads/2025/02/ATG_Website_1-663x551.png"></img>
+       
+        </div>
 
       </div>
     </div>
